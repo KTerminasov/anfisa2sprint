@@ -32,7 +32,7 @@ class IceCreamAdmin(admin.ModelAdmin):
 
     # Поля, по которым можно фильтровать записи
     list_filter = (
-        'category',
+        'is_published',
     )
 
     # Поля, при клике на которые можно перейти на страницу просмотра и редактирования записи
